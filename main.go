@@ -14,7 +14,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello from the other side"}
+		res := &response{Message: "<p><a href="https://www.youtube.com/watch?v=z6-FWJteNLI" target="_blank" rel="noopener">Hallo from the other side</a></p>"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
